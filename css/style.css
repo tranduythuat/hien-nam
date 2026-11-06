@@ -323,7 +323,7 @@
 .img-top {
   position: absolute;
   top: 2%;
-  max-width: 100px;
+  max-width: 70px;
 }
 
 .box-dot {
@@ -574,8 +574,8 @@
 }
 
 .lb-add {
-  font-family: var(--font-pinyon);
-  font-size: 38.8px;
+  font-family: var(--font-lora);
+  font-size: 52px;
 }
 
 .add2 {
@@ -1139,16 +1139,18 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   text-align: center;
   color: white;
-  padding-bottom: 5%;
   position: relative;
+  padding-top: 8%;
 }
 
 .img-qr {
-  width: 40%;
-  margin: 100px 0 150px;
+  width: 35%;
+  border-radius: 4px;
+  margin-bottom: 20%;
+  margin-top: 16%;
 }
 
 .lb-thank {
@@ -1156,23 +1158,33 @@ textarea::placeholder {
   font-size: 48px;
   color: white;
   text-align: center;
+  margin-top: 7%;
 }
 
-.lb-end {
+.lb-end-top {
   font-family: var(--font-lora);
   font-size: 0.6em;
   letter-spacing: 1px;
   margin: 1% 5%;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 15%;
+  line-height: 1.5;
+}
+
+.lb-end-bt {
+  font-family: var(--font-lora);
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  margin: 1% 5%;
+  text-transform: uppercase;
 }
 
 .yen {
   font-family: var(--font-lora);
   font-size: 0.6em;
   text-align: center;
-  margin-bottom: 1%;
+  position: absolute;
+  bottom: 2%;
 }
 
 /* invitation-card */
@@ -1458,7 +1470,7 @@ div:where(.swal2-container) img:where(.swal2-image) {
   }
 
   .img-top {
-    max-width: calc((100 / 500) * 100vw);
+    max-width: calc((70 / 500) * 100vw);
   }
 
   .lb-dress2 {
@@ -1562,10 +1574,12 @@ div:where(.swal2-container) img:where(.swal2-image) {
     font-size: calc((35.2 / 500) * 100vw);
   }
 
-  .lb-top3,
-  .lb-add {
+  .lb-top3 {
     font-size: calc((42.8 / 500) * 100vw);
-    ;
+  }
+
+  .lb-add {
+    font-size: calc((52 / 500) * 100vw);
   }
 
   .lb-line1,
