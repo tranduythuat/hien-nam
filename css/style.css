@@ -321,8 +321,9 @@
 }
 
 .img-top {
-  width: 11%;
-  padding-top: 35px;
+  position: absolute;
+  top: 2%;
+  max-width: 100px;
 }
 
 .box-dot {
@@ -1454,6 +1455,10 @@ div:where(.swal2-container) img:where(.swal2-image) {
 @media (max-width: 500px) {
   .container {
     width: 100%;
+  }
+
+  .img-top {
+    max-width: calc((100 / 500) * 100vw);
   }
 
   .lb-dress2 {
