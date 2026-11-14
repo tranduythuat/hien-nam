@@ -1593,8 +1593,7 @@ div:where(.swal2-container) img:where(.swal2-image) {
     font-size: calc((35 / 500) * 100vw);
   }
 
-  .lb-thank,
-  .inv label.lb-inv {
+  .lb-thank {
     font-size: calc((51 / 500) * 100vw);
   }
 
